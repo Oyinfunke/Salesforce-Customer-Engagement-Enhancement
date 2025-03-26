@@ -44,3 +44,19 @@
       
       - Personalized offers appear based on recent searches, travel history, and loyalty status.
       - Real-time feedback loop ensures that only resolved service issues lead to follow-up offers or loyalty perks.
+
+## Solution Design
+    
+  **Solution Overview**
+  
+  The Salesforce implementation streamlined operations by integrating systems, automating processes, and improving personalization to enhance passenger trust and engagement.
+  
+  **Architecture Overview**
+  
+  The solution includes:
+  
+  - **Salesforce CRM** for managing passenger data.
+  - **Experience Cloud** to build the passenger portal with;
+      1. live chat enabled
+      2. Salesforce Knowledge and Topics for Passenger Self-service
+      3. Salesforce Feedback Survey to analyze CSAT
