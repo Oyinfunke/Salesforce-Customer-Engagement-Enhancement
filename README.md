@@ -57,6 +57,10 @@
   
   - **Salesforce CRM** for managing passenger data.
   - **Experience Cloud** to build the passenger portal with;
-      1. live chat enabled
+      1. Live chat enabled
       2. Salesforce Knowledge and Topics for Passenger Self-service
       3. Salesforce Feedback Survey to analyze CSAT
+    🔴 Delta Airline Architecture Diagram
+      <p align="center">
+  <img src="images/Documentation and Implementation Level 1.png" alt="Centered Image" width="900" height="565">
+</p>
