@@ -66,7 +66,7 @@
   <img src="images/Documentation and Implementation Level 1.png" alt="Centered Image" width="900" height="565">
 </p>
 
-**Data Model**
+### Data Model
 
 **Key Objects and Relationships**
 | Object Name | Description | Relationships |
@@ -81,5 +81,43 @@
   <img src="images/sch.jpg" alt="Centered Image" width="900" height="565">
 </p>
 
+**Security Model**
+
+- **User Roles**: Customer, Customer Service Agent, Admin.
+- **Profiles and Permissions**:
+    - Customers: View access to the portal and live chat.
+    - Agents: Full access to customer cases and marketing activity visibility
+
+### Implementation Details
+    
+  **Configuration**
+  
+  - **Experience Cloud**: Configured the customer portal with intuitive navigation and live chat functionality.
+  - **Knowledge base:** Implemented knowledge base topics and articles for customer self-service to increase case deflection, reducing workload for service agents.
+  - **Salesforce Survey:** Implemented Salesforce Surveys to capture customer feedback after each live chat interaction with an agent, enabling analysis of Customer Satisfaction (CSAT).
+
+  ### Lessons Learned
+    
+  **Challenges Faced**
+  
+  - Ensuring seamless integration between siloed systems and marketing tools.
+  
+  **What I Learned**
+  
+  - Deepened understanding of Salesforce Experience Cloud and External user profile configuration
+  - Improved skills in creating customer-centric solutions that enhance engagement.
+
+### Tools and Technologies Used
+  - **Salesforce CRM**
+  - **Salesforce Experience Cloud**
+  - **Salesforce Survey**
+
+### Connect with Me
+
+:linkedin: [www.linkedin.com/in/oyinfunke](http://www.linkedin.com/in/oyinfunke)
+
+:calendly: [Take a Virtual Coffee with me](https://calendly.com/oyinfunke7/quick-chat)
+
+:mail: [oyinfunke7@gmail.com](mailto:oyinfunke7@gmail.com)
 
 
