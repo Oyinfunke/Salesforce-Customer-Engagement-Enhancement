@@ -60,6 +60,7 @@
       1. Live chat enabled
       2. Salesforce Knowledge and Topics for Passenger Self-service
       3. Salesforce Feedback Survey to analyze CSAT
+         
     🔴 Delta Airline Architecture Diagram
       <p align="center">
   <img src="images/Documentation and Implementation Level 1.png" alt="Centered Image" width="900" height="565">
@@ -68,4 +69,17 @@
 **Data Model**
 
 **Key Objects and Relationships**
+| Object Name | Description | Relationships |
+|----------|----------|----------|
+| Contact    | Represents individual Passenger   | Linked to Booking object via a Master-detail relationship   |
+| Flight  | Tracks flight related records   | Linked to Booking object via a Master-detail relationship  |
+| Booking | Junction object that contains look-up fields to Contact and Flight object | Connects both the Contact and Fight object. Creates a many-to-many relationship between these objects. |
+| Case | Tracks Passenger issues and resolutions | Linked to the Contact Object. |
+
+🔴 Schema Diagram showing the relationship between Contact, Booking, Flight and Case object.
+<p align="center">
+  <img src="images/sch.jpg" alt="Centered Image" width="900" height="565">
+</p>
+
+
 
